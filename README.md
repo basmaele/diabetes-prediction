@@ -1,1 +1,3 @@
-# diabetes-prediction
+# Diabetes prediction - End-to-End ML Project
+
+This project implements a simple machine learning pipeline to predict the risk of diabetes based on clinical and demographic features. Using a publicly available dataset (https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset), the project covers data loading, preprocessing, model training, evaluation, and model persistence following a clean and modular Python project structure.
