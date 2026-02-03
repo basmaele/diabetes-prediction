@@ -2,12 +2,12 @@
 
 ## Overview
 This project is a diabetes prediction application using machine learning. The goal is to predict the risk of diabetes based on patient clinical features. The project includes:
-- Data exploration and preprocessing
-- Training a Logistic Regression model with a sklearn pipeline
-- Interactive predictions through a Streamlit web application
-- Ability to perform single or bulk predictions
+- Data **exploration** and **preprocessing**
+- Training a **Logistic Regression** model with a sklearn pipeline
+- Interactive predictions through a **Streamlit web application**
+- Ability to perform **single** or **bulk predictions**
 
-This project is intended as a hands-on example of an end-to-end ML workflow including reproducible code and a simple UI.
+This project is intended as a hands-on example of an **end-to-end ML workflow** including reproducible code and a simple UI.
 
 ## Project Structure
 
@@ -29,16 +29,16 @@ diabetes-prediction/
 └── README.md
 ```
 ## Installation
-1. Clone the repository
+### 1. Clone the repository
 ```bash
 git clone https://github.com/basmaele/diabetes-prediction.git
 cd diabetes-prediction
 ```
-2. Install dependencies
+### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-Note: Using a virtual environment is optional but recommended for avoiding conflicts with other Python packages.
+**Note:** Using a virtual environment is optional but recommended for avoiding conflicts with other Python packages.
 
 ## Dataset
 The dataset used in this project can be found on Kaggle: [Diabetes Prediction Dataset](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset)
@@ -49,7 +49,7 @@ data/diabetes_prediction_dataset.csv
 ```
 
 ## Usage
-1. Train the model
+### 1. Train the model
 
 Run the training script to create the model pipeline and save it to models/model.pkl:
 ```bash
@@ -62,7 +62,8 @@ This will:
 - Train a Logistic Regression model
 - Save the full pipeline including preprocessing
 
-2. Launch the Streamlit Web App
+### 2. Launch the Streamlit Web App
+
 The app allows interactive predictions:
 ```bash
 streamlit run app/app.py
@@ -70,9 +71,9 @@ streamlit run app/app.py
 
 Features:
 
-- Predict tab: Single patient prediction
-- Bulk Predict tab: Upload a CSV file to predict multiple patients at once
-- Model Information tab: Show model type, pipeline steps, and features
+- **Predict tab:** Single patient prediction
+- **Bulk Predict tab:** Upload a CSV file to predict multiple patients at once
+- **Model Information tab:** Show model type, pipeline steps, and features
 
 ## Notes
 
