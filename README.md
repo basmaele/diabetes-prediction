@@ -1,4 +1,4 @@
-# Diabetes prediction - End-to-End ML Project
+# Diabetes Prediction Project
 
 ## Overview
 This project is a diabetes prediction application using machine learning. The goal is to predict the risk of diabetes based on patient clinical features. The project includes:
