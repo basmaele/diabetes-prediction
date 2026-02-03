@@ -14,19 +14,20 @@ This project is intended as a hands-on example of an **end-to-end ML workflow** 
 ```graphql
 diabetes-prediction/
 ├── app/
-│   └── app.py                # Streamlit web application
+│   └── app.py                  # Streamlit web application
 ├── data/
 │   └── diabetes_prediction_dataset.csv
 ├── models/
 │   └── model.pkl
 ├── src/
-│   ├── config.py             # Project configuration
-│   ├── data.py               # Load and split dataset
-│   ├── model.py              # Define preprocessing + ML pipeline
-│   ├── train.py              # Train model and save pipeline
-├── exploration.ipynb         # EDA notebook
-├── requirements.txt          # Python dependencies
-└── README.md
+│   ├── config.py               # Project configuration
+│   ├── data.py                 # Load and split dataset
+│   ├── model.py                # Define preprocessing + ML pipeline
+│   ├── train.py                # Train model and save pipeline
+├── exploration.ipynb           # EDA notebook
+├── requirements.txt            # Python dependencies
+├── README.md
+└── diabetes_predictor_web.png  # Image of web overview
 ```
 ## Installation
 ### 1. Clone the repository
@@ -63,6 +64,11 @@ This will:
 - Save the full pipeline including preprocessing
 
 ### 2. Launch the Streamlit Web App
+
+Here is a screenshot of the web app interface:
+
+![Diabetes Predictor Web App](diabetes_predictor_web.png)
+
 
 The app allows interactive predictions:
 ```bash
